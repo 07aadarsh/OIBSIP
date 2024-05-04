@@ -57,3 +57,13 @@ button{
     10px 15px 20px rgba(0, 0, 0, 0.08),
     inset -20px -20px 15px rgba(50, 50, 50, 0.9);
 }
+
+button:hover {
+    background-color: #444;
+    box-shadow: inset 6px 6px 7px rgba(0, 0, 0, 0.12),
+      7px 8px 9px rgba(0, 0, 0, 0.12),
+      10px 15px 20px rgba(0, 0, 0, 0.12),
+      inset -20px -20px 15px rgba(50, 50, 50, 0.95);
+    color: whitesmoke;
+    cursor: pointer;
+  }
